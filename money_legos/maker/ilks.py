@@ -1,4 +1,4 @@
-from erc20 import tokens
+from ..erc20 import tokens
 
 ilks = {
     "batA": {

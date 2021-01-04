@@ -1,4 +1,4 @@
-import util
+from .. import util
 
 addressWhitelistAbi = util.read_json("./uma/abi/AddressWhitelist.json")
 designatedVotingFactoryAbi = util.read_json("./uma/abi/DesignatedVotingFactory.json")

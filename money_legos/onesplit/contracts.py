@@ -1,4 +1,4 @@
-import util
+from .. import util
 
 oneSplitAbi = util.read_json("./onesplit/abi/OneSplit.json")
 

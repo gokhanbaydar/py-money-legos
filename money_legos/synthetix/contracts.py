@@ -1,4 +1,4 @@
-import util
+from .. import util
 
 ProxyERC20Abi = util.read_json("./synthetix/abi/ProxyERC20.json")
 SynthAbi = util.read_json("./synthetix/abi/Synth.json")

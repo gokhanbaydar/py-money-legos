@@ -1,4 +1,4 @@
-import util
+from .. import util
 
 exchangeAbi = util.read_json("./uniswap/abi/Exchange.json")
 factoryAbi = util.read_json("./uniswap/abi/Factory.json")

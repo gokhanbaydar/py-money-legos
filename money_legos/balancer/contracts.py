@@ -1,4 +1,4 @@
-import util
+from .. import util
 
 BActions = util.read_json("./balancer/abi/BActions.json")
 ExchangeProxy = util.read_json("./balancer/abi/ExchangeProxy.json")

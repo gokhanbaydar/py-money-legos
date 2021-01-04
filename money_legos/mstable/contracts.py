@@ -1,4 +1,4 @@
-import util
+from .. import util
 
 Masset = util.read_json("./mstable/abi/Masset.json")
 MetaToken = util.read_json("./mstable/abi/MetaToken.json")

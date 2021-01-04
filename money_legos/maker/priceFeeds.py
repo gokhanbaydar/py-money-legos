@@ -1,4 +1,4 @@
-import util
+from .. import util
 
 medianizerAbi = util.read_json("./maker/abi/Medianizer.json")
 

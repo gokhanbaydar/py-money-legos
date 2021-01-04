@@ -1,4 +1,4 @@
-import util
+from .. import util
 
 makerProxyRegistryAbi = util.read_json("./maker/abi/ProxyRegistry.json")
 dssCdpManagerAbi = util.read_json("./maker/abi/DssCdpManager.json")
